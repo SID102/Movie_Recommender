@@ -1,0 +1,61 @@
+.navigation {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  background: linear-gradient(to right, #111112, #b1b9b8); 
+  background-color: #1d1b1b;
+  color: black;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+.brand-name {
+  text-decoration: none;
+  color: #f7f7f7;
+  font-size: 1.5rem;
+  font-family:cursive;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+.navigation-menu {
+  margin-left: auto;
+  margin-right: 40px;
+}
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+}
+.navigation-menu li {
+  list-style-type: none;
+  margin: 0 1rem;
+}
+.navigation-menu li a {
+  text-decoration: none;
+  color: #fcfcfc;
+  font-family:cursive;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+}
+
+.hamburger {
+  // removes default border on button element
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #283b8b;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+// positions the icon to the right and center aligns it vertically
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+.hamburger:hover {
+  background-color: #161717;
+}

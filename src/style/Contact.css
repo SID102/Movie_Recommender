@@ -1,0 +1,31 @@
+.contact{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: right;
+  position: relative;
+  padding: 2rem 0rem;
+  padding-left: 2rem 0rem;
+  text-align: center;
+  background: linear-gradient(to right, #121212, #02177e); 
+  background-color: #1d1b1b;
+  color: #f0f0f0;
+}
+.image3 {
+  height: 84px; /* Example height */
+  width: auto;
+  margin-left:355px;
+  margin-top:200px;/* Spacing between icons */
+}
+.image4 {
+  height: 100px; /* Example height */
+  width: auto;
+  margin-left:90px;
+  margin-top:200px;/* Spacing between icons */
+}
+.image5 {
+  height: 84px; /* Example height */
+  width: auto;
+  margin-left:90px;
+  margin-top:200px;/* Spacing between icons */
+}

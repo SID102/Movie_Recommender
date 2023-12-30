@@ -1,0 +1,11 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+}
+.maindiv{
+  background-color: #ffffff;
+  color: #100881;
+  height: 100vh;
+  width: 100vw;
+}

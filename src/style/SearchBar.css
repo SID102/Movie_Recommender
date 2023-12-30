@@ -1,0 +1,81 @@
+/* SearchBar.css */
+form {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 45px;
+  width: 450px;
+  border-radius: 5px;
+  border: 1px solid #161618;
+  font-size: 18px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 45px;
+  border: none;
+  background-color: #909092;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+.class1{
+    color: #17235e;
+    height: 40vh;
+    width: 98vw;
+    display: flex;
+    margin-right:90px;
+    margin-top: 10px;
+    border: 3px solid black;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+.sidd{
+  text-align: left;
+   /* margin-right:100px; */
+  flex: 70;
+  font-family: cursive;
+  font-weight: bold;
+  margin-top: 00px;
+}
+.resizeimage {
+  width: 250px; /* Adjust the width as needed */
+  height: 250px;
+  margin-top:20px;
+  margin-left: 20px;
+  flex: 30;
+  margin-right: 100px;/* Keeps the aspect ratio intact */
+  border: 3px solid black;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23); /* Adjust border size and color as needed */
+}
+.second{
+  margin-top: 60px;
+}
+.firstlabel{
+  margin-top: 50px;
+  margin-left:20px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: cursive;
+}
+.secondlabel{
+  margin-top: 50px;
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: cursive;
+}
+.firstselect{
+  font-size: 18px;
+  border: 3px solid black;
+}
+.secondselect{
+  font-size: 18px;
+  border: 3px solid black;
+}
+
